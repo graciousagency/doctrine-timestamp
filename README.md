@@ -1,7 +1,7 @@
 # Gracious Doctrine Timestamp
 An extension to add timestamps on doctrine events
 
-##Installation
+## Installation
 ```text
 composer require gracious/doctrine-timestamp
 ```
