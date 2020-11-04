@@ -1,6 +1,6 @@
 <?php
 
-namespace Gracious\DoctrineTimestamp;
+namespace Gracious\DoctrineTimestamp\Extension;
 
 use DateTime;
 use Doctrine\ORM\Mapping as ORM;
@@ -34,12 +34,12 @@ class Timestamps
         $this->updatedAt = new DateTime();
     }
 
-    public function getCreatedAt(): DateTime
+    public function getCreatedAt(): ?DateTime
     {
         return $this->createdAt;
     }
 
-    public function getUpdatedAt(): DateTime
+    public function getUpdatedAt(): ?DateTime
     {
         return $this->updatedAt;
     }
