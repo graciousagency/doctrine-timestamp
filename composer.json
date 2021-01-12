@@ -4,7 +4,7 @@
     "keywords": ["doctrine", "timestamp", "event"],
     "type": "symfony-bundle",
     "require": {
-        "php": "^7.4",
+        "php": "^7.4|^8.0",
         "symfony/orm-pack": "^2.0"
     },
     "license": "MIT",
