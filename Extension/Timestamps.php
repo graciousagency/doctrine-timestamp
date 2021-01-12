@@ -5,7 +5,7 @@ namespace Gracious\DoctrineTimestamp\Extension;
 use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 
-class Timestamps
+trait Timestamps
 {
     /**
      * @ORM\Column(type="datetime", nullable = true)
@@ -43,5 +43,4 @@ class Timestamps
     {
         return $this->updatedAt;
     }
-
 }
